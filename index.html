@@ -1,1 +1,64 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Paper</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 0; padding: 0; background-color: #f4f4f4; }
+        .container { max-width: 900px; margin: 50px auto; background: white; padding: 20px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); border-radius: 10px; text-align: left; }
+        h1, h2 { color: #333; text-align: center; }
+        .content { padding: 20px; }
+        .table-container { overflow-x: auto; margin: 20px 0; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .image-container { text-align: center; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h2>SCORE-BASED SELF-SUPERVISED MRI DENOISING</h2>
+            <p>Authors: Jiachen Tu, Yaokun Shi, Fan Lam</p>
+            <p>Abstract: Magnetic resonance imaging (MRI) is a powerful noninvasive diagnostic imaging tool that provides unparalleled soft tissue contrast and anatomical detail. Noise contamination, especially in accelerated and/or low-field acquisitions, can significantly degrade image quality and diagnostic accuracy. Supervised learning based denoising approaches have achieved impressive performance but require high signal-to-noise ratio (SNR) labels, which are often unavailable. Self-supervised learning holds promise to address the label scarcity issue, but existing self-supervised denoising methods tend to oversmooth fine spatial features and often yield inferior performance than supervised methods. We introduce Corruption2Self (C2S), a novel score-based self-supervised framework for MRI denoising. At the core of C2S is a generalized denoising score matching (GDSM) loss, which extends denoising score matching to the ambient noise setting by modeling the conditional expectation of higher-SNR images given further corrupted observations. This allows the model to effectively learn denoising across multiple noise levels directly from noisy data. Additionally, we incorporate a reparameterization of noise levels to stabilize training and enhance convergence, and introduce a detail refinement extension to balance noise reduction with the preservation of fine spatial features. Moreover, C2S can be extended to multi-contrast denoising by leveraging complementary information across different MRI contrasts. We demonstrate that our method achieves state-of-the-art performance among self-supervised methods and competitive results compared to supervised counterparts across varying noise conditions and MRI contrasts on the M4Raw and fastMRI dataset. </p>
+            
+            <h2>Introduction</h2>
+            <p>Provide an introduction to the paper, including background information and the problem being addressed.</p>
+            
+            <h2>Methodology</h2>
+            <p>Describe the methods used in your research, including data collection, processing, and analysis.</p>
+            
+            <div class="image-container">
+                <img src="figure1.jpg" alt="Figure 1: Description of the image" width="80%">
+                <p>Figure 1: A descriptive caption for the figure.</p>
+            </div>
+            
+            <h2>Results</h2>
+            <div class="table-container">
+                <table>
+                    <tr>
+                        <th>Parameter</th>
+                        <th>Value</th>
+                    </tr>
+                    <tr>
+                        <td>Accuracy</td>
+                        <td>95%</td>
+                    </tr>
+                    <tr>
+                        <td>Precision</td>
+                        <td>92%</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <h2>Conclusion</h2>
+            <p>Summarize the findings and discuss their implications for future research.</p>
+        </div>
+        <footer>
+            <p>&copy; 2025</p>
+        </footer>
+    </div>
+</body>
+</html>
