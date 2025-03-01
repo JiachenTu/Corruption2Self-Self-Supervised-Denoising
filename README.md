@@ -1,11 +1,28 @@
 # Corruption2Self: Score-based Self-supervised MRI Denoising
 
+<div align="center">
+  <a href="https://jiachentu.github.io/Corruption2Self-Self-Supervised-Denoising/">
+    <img src="https://img.shields.io/badge/🌐_Project_Website-Visit_Now-blue?style=for-the-badge" alt="Project Website" height="35">
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://openreview.net/forum?id=uNd289HjLi">
+    <img src="https://img.shields.io/badge/ICLR-2025-b31b1b?style=flat-square" alt="Conference">
+  </a>
+  <a href="https://github.com/JiachenTu/Corruption2Self-Self-Supervised-Denoising/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT">
+  </a>
+</div>
+
+<br>
+
 This repository contains the official PyTorch implementation of our paper:
 
 > **Score-based Self-supervised MRI Denoising**  
 > Jiachen Tu, Yaokun Shi, Fan Lam  
 > *ICLR 2025*  
-> [Paper](https://openreview.net/forum?id=uNd289HjLi)
+> [Paper](https://openreview.net/forum?id=uNd289HjLi) | [Website](https://jiachentu.github.io/Corruption2Self-Self-Supervised-Denoising/)
 
 ## Abstract
 
@@ -20,7 +37,6 @@ We demonstrate that our method achieves state-of-the-art performance among self-
 ⏳ **The code will be released soon. Please stay tuned!**
 
 Upon release, this repository will include:
-
 - 🔧 Implementation of the Corruption2Self (C2S) framework
 - 📊 Training and evaluation scripts
 - 📚 Pre-trained models for various MRI contrasts
@@ -39,12 +55,3 @@ booktitle={The Thirteenth International Conference on Learning Representations},
 year={2025},
 url={https://openreview.net/forum?id=uNd289HjLi}
 }
-```
-
-## Contact
-
-For any questions or issues, please open an issue on this repository or contact the authors directly.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
